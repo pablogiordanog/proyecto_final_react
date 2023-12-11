@@ -1,0 +1,6 @@
+  <Routes>
+          <Route path="/" element={<Menu1 />}>
+            <Route index element={<Home />} />
+            <Route path="*" element={<Page404 />} />
+          </Route>  
+        </Routes>
